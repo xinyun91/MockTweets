@@ -1,8 +1,8 @@
-package MockTweets;
+package mockTweets;
 
 import javax.swing.SwingUtilities;
 
-import MockTweets.gui.SimpleGUI;
+import mockTweets.gui.SimpleGUI;
 
 public class Driver {
 
@@ -15,7 +15,7 @@ public class Driver {
 
         lab7.model.DataModel dataModel;
         if (USE_MOCK_TWITTER_OBJECT) {
-            dataModel = new MockTweets.model.DataModel();
+            dataModel = new mockTweets.model.DataModel();
             /*
              * Available queries:
              *         #Buffalo
